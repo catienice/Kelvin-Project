@@ -2,7 +2,7 @@
 const kelvin = 293;
 
 // Celsuis is 273 degrees less than Kelvin
-const celsius = (kelvin - 273);
+const celsius = kelvin - 273;
 
 // Conversion from Celsius to Farenheit and rounded down
 let farenheit = celsius* (9 / 5) + 32;
