@@ -5,7 +5,7 @@ const kelvin = 293;
 const celsius = kelvin - 273;
 
 // Conversion from Celsius to Farenheit and rounded down
-const farenheit = celsius * (9 / 5) + 32;
+let farenheit = celsius * (9 / 5) + 32;
 Math.floor(farenheit);
 
 let temperature = farenheit;
